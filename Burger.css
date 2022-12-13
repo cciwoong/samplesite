@@ -1,0 +1,121 @@
+/* WOWBURGER1  */
+img{width: 100%}
+.order{position: absolute;  
+z-index: 10;    
+	top: 67%;
+    left: 56%;
+    width: 217px;
+    height: 65px;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+.order{text-align:center;}
+
+#ON{color: white;
+	position: absolute;  
+z-index: 10;
+	font-size: 25px;
+    top: 25%;
+    left: 98%;
+    width: 217px;
+    height: 65px;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+#VOM{color: white;
+	position: absolute;  
+z-index: 10;
+    font-size: 25px;
+    top: 100%;
+    left: 57%;
+    width: 300px;
+    height: 65px;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+
+
+/* WOWBURGER2  */
+.menu{
+	float: center; 
+	width: 100%;
+	
+	
+}
+.burger{width:33%}
+
+
+/* WOWBURGER3 */
+.sign{
+	position: absolute;  
+    z-index: 10;
+	width: 100%;
+	
+	
+	
+}
+
+#form{
+	position: absolute;  
+    z-index: 10; 
+	margin-top: 200px;
+	text-align:center;
+    vertical-align: middle;
+	color: #ff0000;
+	left: 39%;
+	background-color: #ffff00;
+}
+
+#disbut{
+	
+	background-color: transparent;
+	border: 3px solid red;
+	color: red;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	position: relative;
+	transition: all 0.4s;
+	overflow: hidden;
+}
+
+#disbut:focus{
+	outline: none;
+}
+
+#disbut::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #ffff00;
+	top: 100;
+	left: 0;
+	transition: all 0.4s;
+	z-index: -1;
+	
+}
+
+#disbut:hover::before{
+	transform: translateY(-100%);
+	
+}
+
+#disbut:hover{
+	color: #FFFF00;
+	
+
+	
+}
+
+#check{
+	
+	background-color: transparent;
+	border: 3px solid red;
+	color: red;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	position: relative;
+	transition: all 0.4s;
+	overflow: hidden;

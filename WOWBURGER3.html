@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>    
+		 <meta charset="UTF-8">
+	 
+	 
+		 <title>  WOWBURGER3  </title>
+	     <link rel="stylesheet" href="Burger.css">
+	 <script>
+		 function hello()
+		 {
+			 alert("The discount has been applied:)");
+		 }
+		
+		 </script>
+	 
+	 
+	 </head>
+	 <body>
+			 <div class = "sign">
+			 <img src="sign.jpg"/> 
+			 </div>
+		 <table align="center" id="form" style="width:25%" border="1" cellpadding="10">
+		    <form>
+			   <tr>
+			      <td>
+			       <label for="Username">
+			       Username*
+			       </label>
+			       </td>
+		           <td><input type="text" name="uname" value="enter your Username" maxlength="9"/>
+		            </td>
+		         </tr>
+				 
+		         <tr>
+		           <td>
+				   <label for="Password">
+			       Password*
+				   </label>
+		           </td>
+		           <td><input type="password" name="password" value="enter your Password" maxlength="9"/>
+			       </td>
+				 </tr>
+				 
+				 <tr>
+			      <td>
+			       <label for="cost">
+			       The burgers cost 
+			       </label>
+			       </td>
+		          <td>
+					 <select id="dropdown">
+					 <option value="0">select option</option>
+					 <option value="1">6oz Large = 7&euro;</option>
+					 <option value="2">10z Extra-Large = 9&euro;</option>
+					 <option value="3">16oz Supersize = 17.50&euro;</option>
+					 </select>
+					 <script src="burgers.js"></script>
+		           </td>
+		         </tr>
+				 
+				 
+				 
+				 <tr>
+			      <td>
+			       <label for="number">
+			       Number of bugers
+			       </label>
+			       </td>
+		           <td><input type="number" id="tentacles" name="tentacles" min="1" >
+		            </td>
+		         </tr>
+				 
+				
+				
+				<tr>
+		         <td colspan = "2"><button id="disbut" type="button" onclick="hello()">DISCOUNT!!!</button> 
+		         </td>
+				 </tr>
+			     
+				<tr>
+				<td colspan = "2"><input id="check" type="submit" value="Checkout">
+				</td>
+				</tr>
+
+		 </form>
+		</table>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 </body>
+
+
+
+
+
+
+
+</html>
